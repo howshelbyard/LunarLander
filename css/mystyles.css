@@ -1,0 +1,63 @@
+
+body{
+	background-image: url("../images/galaxy.jpg");
+}
+
+h1{
+	font-family: 'VT323', monospace;
+	color: white;
+	text-align: center;
+	font-size: 6em;
+	
+	
+}
+
+#menuBar{
+
+	 
+font-family: 'VT323', monospace;
+	color: black;
+	padding-bottom: 1.5em;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	text-align: center;
+	padding-right: 1.2em;
+	font-size: 2em;
+	border-width: 1.4em;
+
+}
+
+
+#myGameArea{
+
+	background-color: black;
+	height: 700px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+
+}
+
+ 
+
+button{
+	
+	font-size: 1.5em;
+	border-radius: 4px;
+font-family: 'VT323', monospace;
+}
+
+button:hover {
+    background-color: #A22A14; 
+    color: white;
+}
+
+#moon{
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 99%;
+}
